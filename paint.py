@@ -2,12 +2,13 @@
 
 Exercises
 
-1. Add a color.
+1. Add a color. listo
 2. Complete circle.
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
 """
+import turtle 
 
 from turtle import *
 
@@ -38,7 +39,6 @@ def square(start, end):
 
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
 
 
 def rectangle(start, end):
@@ -79,6 +79,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+onkey(lambda: color('pink'), 'P') """color nuevo """
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
